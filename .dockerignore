@@ -1,0 +1,9 @@
+# บอก Docker ว่าไม่ต้องเอาโฟลเดอร์เหล่านี้ไป Build
+node_modules
+.next
+out
+build
+.git
+.env*
+.vercel
+*.log
