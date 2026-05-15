@@ -21,19 +21,16 @@ export default function BrewLeanLanding() {
               href="#"
               className="text-[#ab7a44] border-b-2 border-[#ab7a44] pb-1"
             >
-              Home
+              หน้าหลัก
             </a>
             <a href="#" className="hover:text-[#ab7a44] transition-colors">
-              Menu
+              เมนู
             </a>
             <a href="#" className="hover:text-[#ab7a44] transition-colors">
-              About
+              เกี่ยวกับเรา
             </a>
             <a href="#" className="hover:text-[#ab7a44] transition-colors">
-              Gallery
-            </a>
-            <a href="#" className="hover:text-[#ab7a44] transition-colors">
-              Contact
+              ช่องทางติดต่อ
             </a>
           </div>
           <Button className="bg-[#5a3d21] hover:bg-[#3d2916] text-[#f4eddf] rounded-xl px-6">
@@ -60,20 +57,6 @@ export default function BrewLeanLanding() {
               พร้อมเสิร์ฟเครื่องดื่มที่รังสรรค์ขึ้นอย่างพิถีพิถันจากเมล็ดกาแฟคุณภาพดี
               พร้อมความรู้สึกดีๆ
             </p>
-            <div className="flex flex-wrap gap-4">
-              <Button className="bg-[#5a3d21] hover:bg-[#3d2916] text-[#f4eddf] text-lg py-7 px-8 rounded-full shadow-lg shadow-[#5a3d21]/20 group">
-                Order Your Favorite{" "}
-                <span className="ml-2 group-hover:translate-x-1 transition-transform">
-                  →
-                </span>
-              </Button>
-              <Button
-                variant="ghost"
-                className="text-lg py-7 px-8 rounded-full hover:bg-white/50 text-[#5a3d21]"
-              >
-                <span className="mr-2 text-[#ab7a44]">▶</span> Watch Our Story
-              </Button>
-            </div>
           </div>
 
           <div className="relative">
@@ -100,38 +83,36 @@ export default function BrewLeanLanding() {
         <div className="flex justify-between items-end mb-12">
           <div>
             <p className="text-[#ab7a44] font-bold mb-2">OUR FAVORITES 🌿</p>
-            <h2 className="text-4xl font-bold text-[#5a3d21]">
-              Featured Drinks
-            </h2>
+            <h2 className="text-4xl font-bold text-[#5a3d21]">เมนูแนะนำ</h2>
           </div>
           <Button
             variant="outline"
             className="rounded-full border-[#d2b595] text-[#5a3d21] hover:bg-[#d2b595]/20"
           >
-            View Full Menu <span className="ml-1 text-xs">→</span>
+            ดูเมนูทั้งหมด <span className="ml-1 text-xs">→</span>
           </Button>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {[
             {
-              name: "Iced Latte",
-              price: "3.75",
+              name: "ซัมเมอร์เฟรส",
+              price: "2.14",
               img: "https://images.unsplash.com/photo-1485808191679-5f86510681a2?w=500",
             },
             {
-              name: "Matcha Latte",
-              price: "4.25",
+              name: "บูสเตอร์",
+              price: "2.30",
               img: "https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=500",
             },
             {
-              name: "Black Coffee",
-              price: "2.50",
+              name: "รูบี้เจลลี่ โคลด์บริว",
+              price: "2.45",
               img: "https://images.unsplash.com/photo-1551033406-611cf9a28f67?w=500",
             },
             {
-              name: "Signature Latte Art",
-              price: "4.25",
+              name: "แซสซี่ เกิร์ล",
+              price: "2.45",
               img: "https://images.unsplash.com/photo-1534778101976-62847782c213?w=500",
             },
           ].map((item, i) => (
@@ -150,7 +131,7 @@ export default function BrewLeanLanding() {
                   {item.name}
                 </h3>
                 <p className="text-sm text-[#5a3d21]/60 mb-4">
-                  Smooth espresso with steamed milk.
+                  Signature Coffe Menu.
                 </p>
                 <div className="flex justify-between items-center">
                   <span className="text-[#ab7a44] font-bold text-lg">
