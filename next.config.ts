@@ -1,8 +1,8 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from "next"; 
 
 const nextConfig: NextConfig = {
-  basePath: "/brewlean",
+  basePath: "/brewlean", 
   /* config options here */
 };
 
-export default nextConfig;
+export default nextConfig; 
