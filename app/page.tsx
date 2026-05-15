@@ -33,9 +33,6 @@ export default function BrewLeanLanding() {
               ช่องทางติดต่อ
             </a>
           </div>
-          <Button className="bg-[#5a3d21] hover:bg-[#3d2916] text-[#f4eddf] rounded-xl px-6">
-            Order Now
-          </Button>
         </div>
       </nav>
 
@@ -154,16 +151,19 @@ export default function BrewLeanLanding() {
             />
           </div>
           <div className="p-12 md:p-20 flex flex-col justify-center">
-            <p className="text-[#ab7a44] font-bold mb-2">OUR STORY ☕</p>
+            <p className="text-[#ab7a44] font-bold mb-2">
+              Brewlean ของพวกเรา ☕
+            </p>
             <h2 className="text-4xl font-bold mb-6 leading-tight text-[#5a3d21]">
-              Brewed with Passion, <br />
+              ปรุงด้วยความรัก ความตั้งใจ <br />
               <span className="italic text-[#ab7a44] font-serif">
-                Served with Heart.
+                และเสิร์ฟด้วยใจ
               </span>
             </h2>
             <p className="text-[#5a3d21]/80 mb-8 leading-relaxed">
-              Brewlean started with a simple belief: great coffee should be part
-              of everyday life. We combine quality beans with a welcoming space.
+              Brewlean เริ่มต้นด้วยวันที่เรียบง่าย
+              กาแฟชั้นเยี่ยมควรเป็นส่วนหนึ่งของชีวิตประจำวัน
+              เราผสมผสานเมล็ดกาแฟคุณภาพสูงเข้ากับพื้นที่ที่อบอุ่นและเป็นกันเอง
             </p>
             <div className="space-y-6 mb-10">
               <div className="flex gap-4">
@@ -171,11 +171,9 @@ export default function BrewLeanLanding() {
                   🌿
                 </div>
                 <div>
-                  <p className="font-bold text-[#5a3d21]">
-                    Quality Ingredients
-                  </p>
+                  <p className="font-bold text-[#5a3d21]">ส่วนผสมที่มีคุณภาพ</p>
                   <p className="text-sm text-[#5a3d21]/60">
-                    We source only the best beans.
+                    เราคัดสรรเมล็ดกาแฟที่ดีที่สุด
                   </p>
                 </div>
               </div>
@@ -184,9 +182,11 @@ export default function BrewLeanLanding() {
                   ✨
                 </div>
                 <div>
-                  <p className="font-bold text-[#5a3d21]">Crafted with Care</p>
+                  <p className="font-bold text-[#5a3d21]">
+                    รังสรรค์ด้วยความใส่ใจ
+                  </p>
                   <p className="text-sm text-[#5a3d21]/60">
-                    Every cup is brewed with precision.
+                    กาแฟทุกแก้วชงด้วยความพิถีพิถัน
                   </p>
                 </div>
               </div>
@@ -195,7 +195,7 @@ export default function BrewLeanLanding() {
               variant="outline"
               className="w-fit rounded-full border-[#5a3d21] text-[#5a3d21] hover:bg-[#5a3d21] hover:text-[#f4eddf] py-6 px-8 transition-all"
             >
-              Learn More About Us <span className="ml-2">→</span>
+              เกี่ยวกับพวกเรา <span className="ml-2">→</span>
             </Button>
           </div>
         </div>
@@ -221,42 +221,42 @@ export default function BrewLeanLanding() {
             <ul className="space-y-4 text-sm text-[#5a3d21]/60">
               <li>
                 <a href="#" className="hover:text-[#ab7a44]">
-                  Home
+                  หน้าหลัก
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-[#ab7a44]">
-                  Menu
+                  เมนู
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-[#ab7a44]">
-                  About
+                  เกี่ยวกับเรา
                 </a>
               </li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-bold mb-6 text-[#5a3d21]">Hours</h4>
+            <h4 className="font-bold mb-6 text-[#5a3d21]">เวลา เปิด - ปิด</h4>
             <ul className="space-y-2 text-sm text-[#5a3d21]/60">
               <li className="flex justify-between">
-                <span>Mon - Fri</span> <span>7:00 AM - 6:00 PM</span>
+                <span>จันทร์ - ศุกร์</span> <span>7:30 - 21:00 น.</span>
               </li>
               <li className="flex justify-between text-[#ab7a44] font-medium">
-                <span>Sat - Sun</span> <span>8:00 AM - 6:00 PM</span>
+                <span>เสาร์ - อาทิตย์</span> <span>7:30 - 21:00 น.</span>
               </li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-bold mb-6 text-[#5a3d21]">Contact Us</h4>
+            <h4 className="font-bold mb-6 text-[#5a3d21]">ช่องทางติดต่อ</h4>
             <ul className="space-y-4 text-sm text-[#5a3d21]/60">
               <li className="flex items-center gap-2">
-                <span>📞</span> +63 912 345 6789
+                <span>📞</span> +XX XXX XXX XXXX
               </li>
               <li className="flex items-center gap-2">
-                <span>📍</span> 123 Coffee Lane, Country
+                <span>📍</span> จ.กำแพงเพชร
               </li>
             </ul>
             <div className="flex gap-4 mt-6 grayscale opacity-70">
