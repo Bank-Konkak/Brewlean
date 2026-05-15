@@ -56,8 +56,9 @@ export default function BrewLeanLanding() {
               </span>
             </h1>
             <p className="text-lg text-[#5a3d21]/80 mb-8 max-w-lg leading-relaxed">
-              Brewlean is your cozy neighborhood café serving thoughtfully
-              crafted drinks made from quality beans and good vibes.
+              Brewlean คือคาเฟ่แถวบ้านอันแสนอบอุ่นของคุณ
+              พร้อมเสิร์ฟเครื่องดื่มที่รังสรรค์ขึ้นอย่างพิถีพิถันจากเมล็ดกาแฟคุณภาพดี
+              พร้อมความรู้สึกดีๆ
             </p>
             <div className="flex flex-wrap gap-4">
               <Button className="bg-[#5a3d21] hover:bg-[#3d2916] text-[#f4eddf] text-lg py-7 px-8 rounded-full shadow-lg shadow-[#5a3d21]/20 group">
